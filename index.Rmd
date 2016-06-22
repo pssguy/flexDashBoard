@@ -1,0 +1,36 @@
+---
+title: "Dashboard Sites"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+#runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Row {data-width=650}
+-----------------------------------------------------------------------
+
+### Music Charts
+
+
+[<img src="http://www.premiersoccerstats.com/musicCharts.png">](https://mytinyshinys.shinyapps.io/musicChartsFlexDB/)
+
+### MLB
+
+
+[<img src="http://www.premiersoccerstats.com/mlb.png">](https://mytinyshinys.shinyapps.io/mlbFlexDB/)
+
+### Headlines
+
+
+[<img src="http://www.premiersoccerstats.com/headlines.png">](https://mytinyshinys.shinyapps.io/mediaHeadlines/)
+
+
+
+
+
+
